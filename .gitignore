@@ -1,0 +1,28 @@
+# Environment Variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# AI/RAG Data
+vector_db/
+documents/
+*.faiss
+*.pkl
+
+# Node.js
+node_modules/
+dist/
+build/
+.eslintcache
+
+# Project specific
+.vscode/
+.idea/
+*.log
